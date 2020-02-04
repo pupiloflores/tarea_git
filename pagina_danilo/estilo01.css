@@ -5,8 +5,29 @@ html{
 
 #contenedor{
     width: 700px;
-    height: 700px;
+    height: 500px;
     background-color: cadetblue;
     color: black;
     border: 1px solid black;
+}
+
+.img01{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 1px solid black;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.footer{
+    width: 700px;
+    height: 50px;
+    position: relative;
+    bottom: -297px;
+    background: grey;
+    border: 1px solid red;
+    color: white;
+    font-size: 20px;
 }
