@@ -1,0 +1,12 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 700px;
+    height: 700px;
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid black;
+}
