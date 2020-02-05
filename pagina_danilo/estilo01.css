@@ -1,7 +1,9 @@
 html {
+    font-family: sans-serif;
 }
 
 table {
+    margin-top: 5em;
   border-collapse: collapse;
   width: 1000px;
 }
@@ -34,17 +36,37 @@ table {
   border: 0px solid #000000;
 }
 
+.img-2 {
+    width: 140px;
+    height: 140px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+  
+.fondo-2 {
+    width: 130px;
+    height: 140px;
+    background-color: rgb(152, 227, 255);
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    border: 0px solid #000000;
+  }
+
 .table-1 {
   height: 400px;
 }
 
 .table-footer {
   height: 110px;
-  background-color: grey;
+  background-color: rgb(47,47,47);
+  color: white;
+  text-align: center;
 }
 
 td {
-  border: 1px solid green;
+  border: transparent;
 }
 
 .td-150 {
@@ -58,4 +80,7 @@ td {
 
 .td-400 {
   width: 400px;
+  background-color: rgb(240,240,240);
+  padding: 2em;
+  text-align: justify;
 }
