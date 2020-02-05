@@ -28,7 +28,7 @@ table {
 .fondo-1 {
   width: 130px;
   height: 140px;
-  background-color: rgb(0, 255, 165);
+  background-color: rgb(255, 237, 62);
   text-align: center;
   border-radius: 40px 40px 40px 40px;
   -moz-border-radius: 40px 40px 40px 40px;
@@ -46,7 +46,7 @@ table {
 .fondo-2 {
     width: 130px;
     height: 140px;
-    background-color: rgb(152, 227, 255);
+    background-color: rgb(192, 255, 152);
     text-align: center;
     border-radius: 40px 40px 40px 40px;
     -moz-border-radius: 40px 40px 40px 40px;
@@ -83,4 +83,9 @@ td {
   background-color: rgb(240,240,240);
   padding: 2em;
   text-align: justify;
+
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  border: 0px solid #000000;
 }
